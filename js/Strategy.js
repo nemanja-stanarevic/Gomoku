@@ -1,8 +1,4 @@
 function Strategy(maxDepth) {
-	// alphaBetaMemory has a key that is hash of the board
-	// value is {upperBound, lowerBound, move}
-	this.alphaBetaMemory = {};
-
 	this.maxDepth = maxDepth;
 
 
